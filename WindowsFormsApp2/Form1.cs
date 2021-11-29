@@ -16,6 +16,18 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Show();
+            button2.Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1.Hide();
+            pictureBox1.Hide();
+            button2.Hide();
+            pictureBox2.Show();
+        }
     }
 }
