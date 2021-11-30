@@ -21,6 +21,14 @@ namespace WindowsFormsApp1
         {
             pictureBox1.Show();
             button1.Hide();
+            button2.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Hide();
+            button2.Hide();
+            pictureBox2.Show();
         }
     }
 }
